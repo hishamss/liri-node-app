@@ -1,0 +1,25 @@
+{
+  "name": "liri-bot",
+  "version": "1.0.0",
+  "description": "liri-node-app",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hishamss/liri-node-app.git"
+  },
+  "author": "Hisham Saymeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hishamss/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/hishamss/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
