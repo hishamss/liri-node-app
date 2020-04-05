@@ -72,22 +72,26 @@ if (Input[2] === "concert-this") {
       }
     }
   });
+} else {
+  console.log(
+    "Invalid Input!!!\r\nUsage: node liri.js [concert-this/spotify-this-song/movie-this/do-what-it-says]"
+  );
 }
 
 function callspotify(song) {
   var url =
     "https://api.spotify.com/v1/search?query=" +
     song +
-    "&type=track&offset=0&limit=5";
+    "&type=track&offset=0&limit=2";
 
   spotify
     .request(url)
     .then(function (data) {
-      // console.log(data);
+      // console.log(data.tracks.items);
       //   console.log("////////////////");
       for (arr of data.tracks.items) {
         // check if the name of the song entered match exactly with the output ex: the sign != the signal fire
-        if (arr.name.toLowerCase() === song.replace("+", " ")) {
+        if (arr.name.toLowerCase() === song.replace(/\+/g, " ")) {
           console.log(
             "Artist : " +
               arr.album.artists[0].name +

@@ -1,6 +1,11 @@
 # liri-node-app
 
-Github repo: https://github.com/hishamss/liri-node-app.git
+- Github repo: https://github.com/hishamss/liri-node-app.git
+- LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will is a command line node app that takes in parameters and gives you back data. LIRI takes in one of the following commands:
+- oncert-this (LIRI sends requests using the axios package to Bands in Town in order to get the available events for artist)
+- spotify-this-song (LIRI sends requests to Spotify using node-spotify-api packages to get information about song )
+- movie-this (LIR sends requests using the axios package to omdbapi to get inforamtion about movie)
+- do-what-it-says (LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands)
 
 1. Search the bands in town >> node liri.js concert-this backstreet boys
    ![band in town](/ReadMeImages/step1.jpg)

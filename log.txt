@@ -4,3 +4,52 @@ Name of the venue: Dignity Health Sports Park
 Venue location: Carson,United States
 Date of the Event: 08/08/2020
 //////////////////
+node liri.js spotify-this-song hall of fame 
+node liri.js spotify-this-song hall of fame 
+node liri.js spotify-this-song famous 
+Artist : Kanye West
+Song Name: Famous
+Song Link: null
+Album: The Life Of Pablo
+///////////////////////////
+node liri.js spotify-this-song hall of fame 
+node liri.js spotify-this-song hall of fame 
+node liri.js spotify-this-song hall of fame 
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Error occurred: SyntaxError: Invalid regular expression: /+/: Nothing to repeat
+node liri.js spotify-this-song hall of fame 
+Artist : The Script
+Song Name: Hall of Fame
+Song Link: https://p.scdn.co/mp3-preview/87ee8d6680a271e44e1130dbdf9901c4ccd47002?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: #3
+///////////////////////////
+Artist : Swoope
+Song Name: Hall of Fame
+Song Link: https://p.scdn.co/mp3-preview/35d884c0e8ae0fff6bf5610242ea7e86200a97a3?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Sonshine
+///////////////////////////
+node liri.js concert-this Akon 
+Event#0:
+Name of the venue: Dignity Health Sports Park
+Venue location: Carson,United States
+Date of the Event: 08/08/2020
+//////////////////
+node liri.js movie-this the town 
+Movie Name: The Town
+Released :17 Sep 2010
+IMBD Rate :7.5/10
+Rotten Tomatoes Rate :93%
+Country: USA
+Plot: A longtime thief, planning his next job, tries to balance his feelings for a bank manager connected to an earlier heist, and a hell bent F.B.I Agent looking to bring him and his crew down.
+Actors: Ben Affleck, Rebecca Hall, Jon Hamm, Jeremy Renner
+///////////////////////////
