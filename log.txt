@@ -1,14 +1,498 @@
-node liri.js concert-this frensh montana 
-Error: Request failed with status code 404
-node liri.js concert-this montana 
-node liri.js concert-this lil wayne 
+node liri.js concert-this backstreet boys 
 Event#0:
-Name of the venue: Tom Lee Park
-Venue location: Memphis,United States
-Date of the Event: 05/03/2020
+Name of the venue: Northwell Health at Jones Beach Theater
+Venue location: Wantagh,United States
+Date of the Event: 07/10/2020
 //////////////////
 Event#1:
-Name of the venue: Tom Lee Park
-Venue location: Memphis,United States
-Date of the Event: 10/16/2020
+Name of the venue: PNC Bank Arts Center
+Venue location: Holmdel,United States
+Date of the Event: 07/13/2020
 //////////////////
+Event#2:
+Name of the venue: BB&T Pavilion
+Venue location: Camden,United States
+Date of the Event: 07/16/2020
+//////////////////
+Event#4:
+Name of the venue: Veterans United Home Loans Amphitheater at Virginia Beach
+Venue location: Virginia Beach,United States
+Date of the Event: 07/19/2020
+//////////////////
+Event#5:
+Name of the venue: Jiffy Lube Live
+Venue location: Bristow,United States
+Date of the Event: 07/21/2020
+//////////////////
+Event#6:
+Name of the venue: DTE Energy Music Theatre
+Venue location: Clarkston,United States
+Date of the Event: 07/23/2020
+//////////////////
+Event#3:
+Name of the venue: Xfinity Theatre
+Venue location: Hartford,United States
+Date of the Event: 07/18/2020
+//////////////////
+Event#7:
+Name of the venue: S&T Bank Music Park
+Venue location: Burgettstown,United States
+Date of the Event: 07/24/2020
+//////////////////
+Event#8:
+Name of the venue: Darien Lake Performing Arts Center
+Venue location: Darien Center,United States
+Date of the Event: 07/25/2020
+//////////////////
+Event#9:
+Name of the venue: Rupp Arena
+Venue location: Lexington,United States
+Date of the Event: 07/27/2020
+//////////////////
+Event#10:
+Name of the venue: Blossom Music Center
+Venue location: Cuyahoga Falls,United States
+Date of the Event: 07/28/2020
+//////////////////
+Event#11:
+Name of the venue: Ruoff Music Center
+Venue location: Noblesville,United States
+Date of the Event: 07/31/2020
+//////////////////
+Event#12:
+Name of the venue: Hollywood Casino Amphitheatre
+Venue location: Tinley Park,United States
+Date of the Event: 08/01/2020
+//////////////////
+Event#13:
+Name of the venue: Hollywood Casino Amphitheatre
+Venue location: Maryland Heights,United States
+Date of the Event: 08/02/2020
+//////////////////
+Event#14:
+Name of the venue: Denny Sanford Premier Center
+Venue location: Sioux Falls,United States
+Date of the Event: 08/04/2020
+//////////////////
+Event#15:
+Name of the venue: Spokane Arena
+Venue location: Spokane,United States
+Date of the Event: 08/07/2020
+//////////////////
+Event#16:
+Name of the venue: White River Amphitheatre
+Venue location: Auburn,United States
+Date of the Event: 08/08/2020
+//////////////////
+Event#17:
+Name of the venue: Rogers Arena
+Venue location: Vancouver,Canada
+Date of the Event: 08/09/2020
+//////////////////
+Event#18:
+Name of the venue: Idaho Center Arena
+Venue location: Nampa,United States
+Date of the Event: 08/11/2020
+//////////////////
+Event#19:
+Name of the venue: USANA Amphitheatre
+Venue location: West Valley City,United States
+Date of the Event: 08/12/2020
+//////////////////
+Event#20:
+Name of the venue: Concord Pavilion
+Venue location: Concord,United States
+Date of the Event: 08/14/2020
+//////////////////
+Event#21:
+Name of the venue: Shoreline Amphitheatre
+Venue location: Mountain View,United States
+Date of the Event: 08/15/2020
+//////////////////
+Event#22:
+Name of the venue: Toyota Amphitheatre
+Venue location: Wheatland,United States
+Date of the Event: 08/16/2020
+//////////////////
+Event#23:
+Name of the venue: Fiddler's Green Amphitheatre
+Venue location: Englewood,United States
+Date of the Event: 08/19/2020
+//////////////////
+Event#24:
+Name of the venue: Intrust Bank Arena
+Venue location: Wichita,United States
+Date of the Event: 08/21/2020
+//////////////////
+Event#25:
+Name of the venue: Chesapeake Energy Arena
+Venue location: Oklahoma City,United States
+Date of the Event: 08/22/2020
+//////////////////
+Event#26:
+Name of the venue: The Walmart AMP
+Venue location: Rogers,United States
+Date of the Event: 08/23/2020
+//////////////////
+Event#27:
+Name of the venue: Saratoga Performing Arts Center
+Venue location: Saratoga Springs,United States
+Date of the Event: 09/11/2020
+//////////////////
+Event#28:
+Name of the venue: Xfinity Center
+Venue location: Mansfield,United States
+Date of the Event: 09/12/2020
+//////////////////
+Event#29:
+Name of the venue: Videotron Centre
+Venue location: Ville De Québec,Canada
+Date of the Event: 09/15/2020
+//////////////////
+Event#30:
+Name of the venue: Bell Centre
+Venue location: Montreal,Canada
+Date of the Event: 09/16/2020
+//////////////////
+Event#32:
+Name of the venue: Budweiser Stage
+Venue location: Toronto,Canada
+Date of the Event: 09/19/2020
+//////////////////
+Event#33:
+Name of the venue: Coastal Credit Union Music Park At Walnut Creek
+Venue location: Raleigh,United States
+Date of the Event: 09/21/2020
+//////////////////
+Event#31:
+Name of the venue: Budweiser Stage
+Venue location: Toronto,Canada
+Date of the Event: 09/18/2020
+//////////////////
+Event#34:
+Name of the venue: PNC Music Pavilion
+Venue location: Charlotte,United States
+Date of the Event: 09/22/2020
+//////////////////
+Event#35:
+Name of the venue: Ameris Bank Amphitheatre
+Venue location: Alpharetta,United States
+Date of the Event: 09/23/2020
+//////////////////
+Event#36:
+Name of the venue: VyStar Veterans Memorial Arena
+Venue location: Jacksonville,United States
+Date of the Event: 09/25/2020
+//////////////////
+Event#37:
+Name of the venue: iTHINK Financial Amphiteatre
+Venue location: West Palm Beach,United States
+Date of the Event: 09/26/2020
+//////////////////
+Event#38:
+Name of the venue: MIDFLORIDA Credit Union Amphitheatre
+Venue location: Tampa,United States
+Date of the Event: 09/27/2020
+//////////////////
+Event#39:
+Name of the venue: Irving Music Factory
+Venue location: Irving,United States
+Date of the Event: 09/30/2020
+//////////////////
+Event#40:
+Name of the venue: The Cynthia Woods Mitchell Pavilion
+Venue location: The Woodlands,United States
+Date of the Event: 10/02/2020
+//////////////////
+Event#41:
+Name of the venue: Isleta Amphitheater
+Venue location: Albuquerque,United States
+Date of the Event: 10/04/2020
+//////////////////
+Event#42:
+Name of the venue: AK Chin Pavilion
+Venue location: Phoenix,United States
+Date of the Event: 10/06/2020
+//////////////////
+Event#43:
+Name of the venue: North Island Credit Union Amphitheatre
+Venue location: Chula Vista,United States
+Date of the Event: 10/07/2020
+//////////////////
+Event#44:
+Name of the venue: Hollywood Bowl
+Venue location: Hollywood,United States
+Date of the Event: 10/09/2020
+//////////////////
+node liri.js concert-this 
+Event#0:
+Name of the venue: Hallenstadion
+Venue location: Zürich,Switzerland
+Date of the Event: 06/02/2020
+//////////////////
+Event#1:
+Name of the venue: Hallenstadion
+Venue location: Zürich,Switzerland
+Date of the Event: 06/03/2020
+//////////////////
+Event#2:
+Name of the venue: ARENA ZAGREB
+Venue location: Zagreb,Croatia
+Date of the Event: 06/05/2020
+//////////////////
+Event#3:
+Name of the venue: Papp Laszlo Arena
+Venue location: Budapest,Hungary
+Date of the Event: 06/07/2020
+//////////////////
+Event#4:
+Name of the venue: Ziggo Dome
+Venue location: Amsterdam Zuidoost,Netherlands
+Date of the Event: 06/10/2020
+//////////////////
+Event#5:
+Name of the venue: Ziggo Dome
+Venue location: Amsterdam Zuidoost,Netherlands
+Date of the Event: 06/12/2020
+//////////////////
+Event#6:
+Name of the venue: Ziggo Dome
+Venue location: Amsterdam Zuidoost,Netherlands
+Date of the Event: 06/13/2020
+//////////////////
+Event#7:
+Name of the venue: Wiener Stadthalle - Halle D
+Venue location: Vienna,Austria
+Date of the Event: 06/15/2020
+//////////////////
+Event#8:
+Name of the venue: Olympiahalle
+Venue location: Munich,Germany
+Date of the Event: 06/17/2020
+//////////////////
+Event#9:
+Name of the venue: SAP Arena
+Venue location: Mannheim,Germany
+Date of the Event: 06/19/2020
+//////////////////
+Event#10:
+Name of the venue: Lanxess Arena
+Venue location: Cologne,Germany
+Date of the Event: 06/21/2020
+//////////////////
+Event#11:
+Name of the venue: Barclaycard Arena Hamburg
+Venue location: Hamburg,Germany
+Date of the Event: 06/22/2020
+//////////////////
+Event#12:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 06/26/2020
+//////////////////
+Event#13:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 06/27/2020
+//////////////////
+Event#14:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 06/30/2020
+//////////////////
+Event#15:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 07/01/2020
+//////////////////
+Event#16:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 07/03/2020
+//////////////////
+Event#17:
+Name of the venue: PARIS LA DEFENSE ARENA
+Venue location: Nanterre,France
+Date of the Event: 07/04/2020
+//////////////////
+Event#18:
+Name of the venue: Site De Kerampuil A Carhaix
+Venue location: Carhaix-plouguer,France
+Date of the Event: 07/16/2020
+//////////////////
+Event#19:
+Name of the venue: Plaine De L'asse
+Venue location: Noyon,France
+Date of the Event: 07/20/2020
+//////////////////
+Event#20:
+Name of the venue: Waldbühne Berlin
+Venue location: Berlin,Germany
+Date of the Event: 07/22/2020
+//////////////////
+Event#21:
+Name of the venue: Mura di Lucca - Viale Carducci
+Venue location: Lucca,Italy
+Date of the Event: 07/25/2020
+//////////////////
+Event#22:
+Name of the venue: National Stadium Bukarest
+Venue location: Bucharest,Romania
+Date of the Event: 07/29/2020
+//////////////////
+Event#23:
+Name of the venue: Hartwall Arena
+Venue location: Helsinki,Finland
+Date of the Event: 08/24/2020
+//////////////////
+Event#24:
+Name of the venue: Hartwall Arena
+Venue location: Helsinki,Finland
+Date of the Event: 08/25/2020
+//////////////////
+Event#25:
+Name of the venue: Telenor Arena
+Venue location: Oslo,Norway
+Date of the Event: 08/28/2020
+//////////////////
+Event#26:
+Name of the venue: Telenor Arena
+Venue location: Oslo,Norway
+Date of the Event: 08/29/2020
+//////////////////
+Event#27:
+Name of the venue: Royal Arena
+Venue location: Copenhagen,Denmark
+Date of the Event: 08/31/2020
+//////////////////
+Event#28:
+Name of the venue: Royal Arena
+Venue location: Copenhagen,Denmark
+Date of the Event: 09/01/2020
+//////////////////
+Event#29:
+Name of the venue: Manchester Arena
+Venue location: Manchester,United Kingdom
+Date of the Event: 09/04/2020
+//////////////////
+Event#30:
+Name of the venue: Manchester Arena
+Venue location: Manchester,United Kingdom
+Date of the Event: 09/05/2020
+//////////////////
+Event#31:
+Name of the venue: Arena Birmingham
+Venue location: Birmingham,United Kingdom
+Date of the Event: 09/08/2020
+//////////////////
+Event#32:
+Name of the venue: Arena Birmingham
+Venue location: Birmingham,United Kingdom
+Date of the Event: 09/09/2020
+//////////////////
+Event#33:
+Name of the venue: SSE Hydro
+Venue location: Glasgow,United Kingdom
+Date of the Event: 09/11/2020
+//////////////////
+Event#34:
+Name of the venue: SSE Hydro
+Venue location: Glasgow,United Kingdom
+Date of the Event: 09/12/2020
+//////////////////
+Event#35:
+Name of the venue: 3Arena
+Venue location: Dublin,Ireland
+Date of the Event: 09/14/2020
+//////////////////
+Event#36:
+Name of the venue: 3Arena
+Venue location: Dublin,Ireland
+Date of the Event: 09/15/2020
+//////////////////
+Event#37:
+Name of the venue: The O2
+Venue location: London,United Kingdom
+Date of the Event: 09/17/2020
+//////////////////
+Event#38:
+Name of the venue: The O2
+Venue location: London,United Kingdom
+Date of the Event: 09/18/2020
+//////////////////
+Event#39:
+Name of the venue: Capital One Arena
+Venue location: Washington,United States
+Date of the Event: 11/16/2020
+//////////////////
+Event#40:
+Name of the venue: PPG Paints Arena
+Venue location: Pittsburgh,United States
+Date of the Event: 11/18/2020
+//////////////////
+node liri.js spotify-this-song fingertips 
+Artist : OneRepublic
+Song Name: Fingertips
+Song Link: null
+Album: Oh My My
+///////////////////////////
+Artist : The Brian Jonestown Massacre
+Song Name: Fingertips
+Song Link: https://p.scdn.co/mp3-preview/28b4354f43ee8e2e7575ca97fc9b4601e28d4d72?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Bout des doigts
+///////////////////////////
+Artist : Tom Gregory
+Song Name: Fingertips
+Song Link: https://p.scdn.co/mp3-preview/02c825a596a6c1e7a399740440272eb13ca860a5?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Fingertips
+///////////////////////////
+Artist : 3mon
+Song Name: Fingertips
+Song Link: https://p.scdn.co/mp3-preview/cc839777a6896b0cc5feae667d20d9f840804e46?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Fingertips
+///////////////////////////
+Artist : Kisma
+Song Name: Fingertips
+Song Link: https://p.scdn.co/mp3-preview/e072beba7dd267794976b83fc7a0553d4ae68af1?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Fingertips
+///////////////////////////
+node liri.js spotify-this-song physical 
+Artist : Dua Lipa
+Song Name: Physical
+Song Link: https://p.scdn.co/mp3-preview/2d8013cc528278684beb6a120c3655e3453d01ea?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: Physical
+///////////////////////////
+Artist : Olivia Newton-John
+Song Name: Physical
+Song Link: null
+Album: Physical
+///////////////////////////
+node liri.js spotify-this-song 
+Artist : Ace of Base
+Song Name: The Sign
+Song Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: The Sign
+///////////////////////////
+Artist : Aimnu Kolec
+Song Name: The Sign
+Song Link: https://p.scdn.co/mp3-preview/3f4303bf8caefb1dd086557bf218359891bfb2ff?cid=f9c10944fdd4494c9e997cae66db2cda
+Album: The Sign
+///////////////////////////
+node liri.js movie-this the town 
+Movie Name: The Town
+Released :17 Sep 2010
+IMBD Rate :7.5/10
+Rotten Tomatoes Rate :93%
+Country: USA
+Plot: A longtime thief, planning his next job, tries to balance his feelings for a bank manager connected to an earlier heist, and a hell bent F.B.I Agent looking to bring him and his crew down.
+Actors: Ben Affleck, Rebecca Hall, Jon Hamm, Jeremy Renner
+///////////////////////////
+node liri.js movie-this 
+Movie Name: Mr. Nobody
+Released :26 Sep 2013
+IMBD Rate :7.8/10
+Rotten Tomatoes Rate :67%
+Country: Belgium, Germany, Canada, France, UK, Luxembourg
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+///////////////////////////
