@@ -7,6 +7,12 @@ var spotify = new Spotify(keys.spotify);
 var fs = require("fs");
 
 var Input = process.argv;
+var text = "node liri.js ";
+
+for (i = 2; i < Input.length; i++) {
+  text += Input[i] + " ";
+}
+log(text + "\r\n");
 
 if (Input[2] === "concert-this") {
   var artist = "";
@@ -52,6 +58,7 @@ if (Input[2] === "concert-this") {
   fs.readFile("random.txt", "utf8", function (err, data) {
     if (err) {
       console.log("smth wrong happend");
+      log("smth wrong happend\r\n");
     } else {
       if (data.split(",")[0] === "spotify-this-song") {
         callspotify(data.split(",")[1].replace(/"/gi, ""));
@@ -61,6 +68,7 @@ if (Input[2] === "concert-this") {
         callbandintown(data.split(",")[1].replace(/"/gi, ""));
       } else {
         console.log("invalid data in random.txt");
+        log("invalid data in random.txt\r\n");
       }
     }
   });
@@ -70,23 +78,32 @@ function callspotify(song) {
   var url =
     "https://api.spotify.com/v1/search?query=" +
     song +
-    "&type=track&offset=0&limit=5";
+    "&type=track&offset=0&limit=20";
 
   spotify
     .request(url)
     .then(function (data) {
-      //   console.log(data.tracks.items[0].album.name);
+      // console.log(data);
       //   console.log("////////////////");
       for (arr of data.tracks.items) {
-        console.log("Artist : " + arr.album.artists[0].name);
-        console.log("Song Name: " + arr.name);
-        console.log("Song Link: " + arr.preview_url);
-        console.log("Album: " + arr.album.name);
-        console.log("///////////////////////////");
+        // check if the name of the song entered match exactly with the output ex: the sign != the signal fire
+        if (arr.name.toLowerCase() === song.replace("+", " ")) {
+          console.log("Artist : " + arr.album.artists[0].name);
+          log("Artist : " + arr.album.artists[0].name + "\r\n");
+          console.log("Song Name: " + arr.name);
+          log("Song Name: " + arr.name + "\r\n");
+          console.log("Song Link: " + arr.preview_url);
+          log("Song Link: " + arr.preview_url + "\r\n");
+          console.log("Album: " + arr.album.name);
+          log("Album: " + arr.album.name + "\r\n");
+          console.log("///////////////////////////");
+          log("///////////////////////////" + "\r\n");
+        }
       }
     })
     .catch(function (err) {
       console.error("Error occurred: " + err);
+      log("Error occurred: " + err + "\r\n");
     });
 }
 
@@ -97,15 +114,24 @@ function callomdb(movie) {
     .get(url)
     .then(function (response) {
       console.log("Movie Name: " + response.data.Title);
+      log("Error occurred: " + err + "\r\n");
       console.log("Released :" + response.data.Released);
+      log("Error occurred: " + err + "\r\n");
       console.log("IMBD Rate :" + response.data.Ratings[0].Value);
+      log("Error occurred: " + err + "\r\n");
       console.log("Rotten Tomatoes Rate :" + response.data.Ratings[1].Value);
+      log("Error occurred: " + err + "\r\n");
       console.log("Country: " + response.data.Country);
+      log("Error occurred: " + err + "\r\n");
       console.log("Plot: " + response.data.Plot);
+      log("Error occurred: " + err + "\r\n");
       console.log("Actors: " + response.data.Actors);
+      log("Error occurred: " + err + "\r\n");
+      log("////////////////////" + "\r\n");
     })
     .catch(function (err) {
       console.error("Error occurred: " + err);
+      log("Error occurred: " + err + "\r\n");
     });
 }
 
@@ -122,22 +148,43 @@ function callbandintown(artist) {
       console.log(response.config.url);
       for (i = 0; i < InqueryResponse.length; i++) {
         console.log("Event#" + i + ":");
+        log("Event#" + i + ":" + "\r\n");
         console.log("Name of the venue: " + InqueryResponse[i].venue.name);
+        log("Name of the venue: " + InqueryResponse[i].venue.name + "\r\n");
         console.log(
           "Venue location: " +
             InqueryResponse[i].venue.city +
             "," +
             InqueryResponse[i].venue.country
         );
+        log(
+          "Venue location: " +
+            InqueryResponse[i].venue.city +
+            "," +
+            InqueryResponse[i].venue.country +
+            "\r\n"
+        );
         var FormattedDate = moment(InqueryResponse[i].datetime).format(
           "MM/DD/YYYY"
         );
         console.log("Date of the Event: " + FormattedDate);
+        log("Date of the Event: " + FormattedDate + "\r\n");
         console.log("//////////////////");
+        log("//////////////////" + "\r\n");
       }
     })
     .catch(function (error) {
       // handle error
       console.log(error);
+      log(error + "\r\n");
     });
+}
+
+function log(logtext) {
+  fs.appendFile("log.txt", logtext, function (err) {
+    // If an error was experienced we will log it.
+    if (err) {
+      console.log(err);
+    }
+  });
 }
