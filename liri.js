@@ -78,7 +78,7 @@ function callspotify(song) {
   var url =
     "https://api.spotify.com/v1/search?query=" +
     song +
-    "&type=track&offset=0&limit=20";
+    "&type=track&offset=0&limit=5";
 
   spotify
     .request(url)
@@ -88,16 +88,37 @@ function callspotify(song) {
       for (arr of data.tracks.items) {
         // check if the name of the song entered match exactly with the output ex: the sign != the signal fire
         if (arr.name.toLowerCase() === song.replace("+", " ")) {
-          console.log("Artist : " + arr.album.artists[0].name);
-          log("Artist : " + arr.album.artists[0].name + "\r\n");
-          console.log("Song Name: " + arr.name);
-          log("Song Name: " + arr.name + "\r\n");
-          console.log("Song Link: " + arr.preview_url);
-          log("Song Link: " + arr.preview_url + "\r\n");
-          console.log("Album: " + arr.album.name);
-          log("Album: " + arr.album.name + "\r\n");
-          console.log("///////////////////////////");
-          log("///////////////////////////" + "\r\n");
+          console.log(
+            "Artist : " +
+              arr.album.artists[0].name +
+              "\r\n" +
+              "Song Name: " +
+              arr.name +
+              "\r\n" +
+              "Song Link: " +
+              arr.preview_url +
+              "\r\n" +
+              "Album: " +
+              arr.album.name +
+              "\r\n" +
+              "///////////////////////////\r\n"
+          );
+          log(
+            "Artist : " +
+              arr.album.artists[0].name +
+              "\r\n" +
+              "Song Name: " +
+              arr.name +
+              "\r\n" +
+              "Song Link: " +
+              arr.preview_url +
+              "\r\n" +
+              "Album: " +
+              arr.album.name +
+              "\r\n" +
+              "///////////////////////////" +
+              "\r\n"
+          );
         }
       }
     })
@@ -113,21 +134,54 @@ function callomdb(movie) {
   axios
     .get(url)
     .then(function (response) {
-      console.log("Movie Name: " + response.data.Title);
-      log("Error occurred: " + err + "\r\n");
-      console.log("Released :" + response.data.Released);
-      log("Error occurred: " + err + "\r\n");
-      console.log("IMBD Rate :" + response.data.Ratings[0].Value);
-      log("Error occurred: " + err + "\r\n");
-      console.log("Rotten Tomatoes Rate :" + response.data.Ratings[1].Value);
-      log("Error occurred: " + err + "\r\n");
-      console.log("Country: " + response.data.Country);
-      log("Error occurred: " + err + "\r\n");
-      console.log("Plot: " + response.data.Plot);
-      log("Error occurred: " + err + "\r\n");
-      console.log("Actors: " + response.data.Actors);
-      log("Error occurred: " + err + "\r\n");
-      log("////////////////////" + "\r\n");
+      console.log(
+        "Movie Name: " +
+          response.data.Title +
+          "\r\n" +
+          "Released :" +
+          response.data.Released +
+          "\r\n" +
+          "IMBD Rate :" +
+          response.data.Ratings[0].Value +
+          "\r\n" +
+          "Rotten Tomatoes Rate :" +
+          response.data.Ratings[1].Value +
+          "\r\n" +
+          "Country: " +
+          response.data.Country +
+          "\r\n" +
+          "Plot: " +
+          response.data.Plot +
+          "\r\n" +
+          "Actors: " +
+          response.data.Actors +
+          "\r\n" +
+          "///////////////////////////\r\n"
+      );
+      log(
+        "Movie Name: " +
+          response.data.Title +
+          "\r\n" +
+          "Released :" +
+          response.data.Released +
+          "\r\n" +
+          "IMBD Rate :" +
+          response.data.Ratings[0].Value +
+          "\r\n" +
+          "Rotten Tomatoes Rate :" +
+          response.data.Ratings[1].Value +
+          "\r\n" +
+          "Country: " +
+          response.data.Country +
+          "\r\n" +
+          "Plot: " +
+          response.data.Plot +
+          "\r\n" +
+          "Actors: " +
+          response.data.Actors +
+          "\r\n" +
+          "///////////////////////////\r\n"
+      );
     })
     .catch(function (err) {
       console.error("Error occurred: " + err);
@@ -145,32 +199,47 @@ function callbandintown(artist) {
     .then(function (response) {
       // handle success
       InqueryResponse = response.data;
-      console.log(response.config.url);
+
       for (i = 0; i < InqueryResponse.length; i++) {
-        console.log("Event#" + i + ":");
-        log("Event#" + i + ":" + "\r\n");
-        console.log("Name of the venue: " + InqueryResponse[i].venue.name);
-        log("Name of the venue: " + InqueryResponse[i].venue.name + "\r\n");
-        console.log(
-          "Venue location: " +
-            InqueryResponse[i].venue.city +
-            "," +
-            InqueryResponse[i].venue.country
-        );
-        log(
-          "Venue location: " +
-            InqueryResponse[i].venue.city +
-            "," +
-            InqueryResponse[i].venue.country +
-            "\r\n"
-        );
         var FormattedDate = moment(InqueryResponse[i].datetime).format(
           "MM/DD/YYYY"
         );
-        console.log("Date of the Event: " + FormattedDate);
-        log("Date of the Event: " + FormattedDate + "\r\n");
-        console.log("//////////////////");
-        log("//////////////////" + "\r\n");
+        console.log(
+          "Event#" +
+            i +
+            ":" +
+            "\r\n" +
+            "Name of the venue: " +
+            InqueryResponse[i].venue.name +
+            "\r\n" +
+            "Venue location: " +
+            InqueryResponse[i].venue.city +
+            "," +
+            InqueryResponse[i].venue.country +
+            "\r\n" +
+            "Date of the Event: " +
+            FormattedDate +
+            "\r\n//////////////////\r\n"
+        );
+        log(
+          "Event#" +
+            i +
+            ":" +
+            "\r\n" +
+            "Name of the venue: " +
+            InqueryResponse[i].venue.name +
+            "\r\n" +
+            "Venue location: " +
+            InqueryResponse[i].venue.city +
+            "," +
+            InqueryResponse[i].venue.country +
+            "\r\n" +
+            "Date of the Event: " +
+            FormattedDate +
+            "\r\n" +
+            "//////////////////" +
+            "\r\n"
+        );
       }
     })
     .catch(function (error) {
