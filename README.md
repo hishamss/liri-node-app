@@ -10,3 +10,7 @@ Github repo: https://github.com/hishamss/liri-node-app.git
    ![search for song](/ReadMeImages/step3.jpg)
 4. if no song was entered, it will search for "The Sign" by Ace of Base.
    ![search for song-default](/ReadMeImages/step4.jpg)
+5. search for movie information >> node liri.js movie-this the town
+   ![search for movie](/ReadMeImages/step5.jpg)
+6. if no movie was entered, it will search for Mr. Nobody
+   ![search for movie-default](/ReadMeImages/step6.jpg)
