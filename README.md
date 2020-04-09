@@ -29,3 +29,4 @@
 
    - log the enetered command and the output to log.txt file
      ![log out to log.txt](/ReadMeImages/step8.jpg)
+     ![bonus](/ReadMeImages/bonus.gif)
